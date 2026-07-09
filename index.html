@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maryam Friendship Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <button id="themeBtn" onclick="changeTheme()">
+    🌙 Theme
+</button>
+<!-- ===============================
+        BISMILLAH INTRO ANIMATION
+================================ -->
+
+<div id="bismillah-intro">
+
+    <h1>
+        بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+    </h1>
+
+</div>
+
+    <!-- ===============================
+            LOADING SCREEN
+    ================================ -->
+
+    <div id="loading-screen">
+
+        <div class="loader-box">
+
+            <div class="loader-circle"></div>
+
+            <h1 class="loading-title">
+                Loading...
+            </h1>
+
+            <p id="loading-percent">
+                0%
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ===============================
+            PASSWORD PAGE
+    ================================ -->
+
+    <section id="password-page" class="page">
+
+        <div class="glass-card">
+
+            <h1 class="title">
+                Welcome Maryam 🌸
+            </h1>
+
+            <p class="subtitle">
+                Is website ko open karne ke liye password enter karein.
+            </p>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password">
+
+            <button id="unlockBtn">
+                Unlock Website
+            </button>
+
+            <p id="errorText"></p>
+
+        </div>
+
+    </section>
+
+    <!-- ===============================
+            BISMILLAH PAGE
+    ================================ -->
+
+    <section id="bismillah-page" class="page hidden">
+
+        <div class="glass-card">
+
+            <h1 class="arabic">
+
+                بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+
+            </h1>
+
+            <h2>
+
+                Har Achay Kaam Ki Shuruaat Allah Ke Naam Se
+
+            </h2>
+
+            <p class="typing-text">
+
+                Har nek kaam Allah Ta'ala ke naam se shuru hota hai.
+
+                Dua hai ke ye chhoti si website tumhare chehre par
+                ek pyari si muskurahat le aaye.
+
+            </p>
+
+            <button class="nextBtn">
+
+                Start Journey
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ===============================
+            WELCOME PAGE
+    ================================ -->
+
+    <section id="welcome-page" class="page hidden">
+
+        <div class="glass-card">
+
+            <h1>
+
+                Assalamu Alaikum Maryam Raees 🌸
+
+            </h1>
+
+            <h3>
+
+                Har Khoobsurat Safar Ki Ek Shuruaat Hoti Hai
+
+            </h3>
+
+            <p class="typing-text">
+
+                Assalamu Alaikum Maryam.
+
+                Umeed hai tum Allah Ta'ala ke fazl-o-karam
+                se khairiyat se hogi.
+
+                Ye website sirf coding nahi...
+
+                Ye meri taraf se ek chhoti si friendship gift hai.
+
+                Umeed hai tumhein pasand aayegi.
+
+            </p>
+
+            <button class="nextBtn">
+
+                Next
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Audio -->
+
+    <audio id="introMusic">
+
+        <source src="intro.mp3" type="audio/mpeg">
+
+    </audio>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- ===============================
+        FRIENDSHIP PAGE
+================================ -->
+
+<section id="friendship-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Dosti Ki Ahmiyat 🤝
+        </h1>
+
+        <h3>
+            "Dosti Allah Ki Khoobsurat Ne'mat Hai"
+        </h3>
+
+        <p class="typing-text">
+            Har insan ki zindagi mein kuch log aise aate hain
+            jo apni achhi soch aur achhe rawaiye se yaadgar ban jate hain.
+
+            Dosti sirf roz baat karne ka naam nahi hota,
+            balke ek dusre ki izzat karna, dua dena aur achha sochna bhi hota hai.
+
+            Umeed hai ye dosti hamesha achhai aur khuloos ke sath qaim rahegi.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        FRIENDSHIP DATE PAGE
+================================ -->
+
+<section id="date-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Ek Yaadgar Din 📅
+        </h1>
+
+
+        <h3>
+            25 October 2025
+        </h3>
+
+
+        <p class="typing-text">
+
+            Ye woh din tha jab hamari dosti ka safar shuru hua.
+
+            Kuch tareekhein sirf calendar ka hissa nahi hotin,
+            balke apni ek khoobsurat yaad bana leti hain.
+
+            Dua hai ke ye safar hamesha achhe lamhon
+            aur achhi yaadon ke sath chalta rahe.
+
+        </p>
+
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- ===============================
+        SMILE PAGE
+================================ -->
+
+<section id="smile-page" class="page hidden">
+
+
+<div class="glass-card">
+
+
+<h1>
+    Muskurahat 🌸
+</h1>
+
+
+<h3>
+    "Muskurahat Sab Se Khoobsurat Zevar Hai"
+</h3>
+
+
+<p class="typing-text">
+
+Allah kare tumhari muskurahat hamesha qaim rahe.
+
+Zindagi mein mushkilein aati rehti hain,
+lekin ek achhi umeed aur muskurahat insan ko
+aage barhne ki taqat deti hai.
+
+Hamesha khush raho aur apna khayal rakho.
+
+</p>
+
+
+<button class="nextBtn">
+Next
+</button>
+
+
+</div>
+
+
+</section>
+<!-- ===============================
+        TRUST IN ALLAH PAGE
+================================ -->
+
+<section id="allah-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Allah Par Bharosa 🌙
+        </h1>
+
+        <h3>
+            "Tawakkul Hi Sab Se Bari Taqat Hai"
+        </h3>
+
+        <p class="typing-text">
+            Zindagi mein kabhi aise lamhe aate hain jab cheezen
+            hamari soch ke mutabiq nahi hotin.
+
+            Lekin hamesha yaad rakhna ke Allah Ta'ala ka faisla
+            hamare liye behtareen hota hai.
+
+            Allah par bharosa rakho aur umeed kabhi mat chhorna.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        DUA PAGE
+================================ -->
+
+<section id="dua-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Dil Se Dua 🤲
+        </h1>
+
+        <h3>
+            "Har Dua Mein Khushi Ki Umeed"
+        </h3>
+
+        <p class="typing-text">
+            Dil se dua hai ke Allah Ta'ala tumhari zindagi ko
+            khushiyon, sukoon aur kamyabi se bhar de.
+
+            Allah tumhari har jaiz dua qubool farmaye,
+            tumhein sehat aur hifazat ata farmaye.
+
+            Ameen.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        THANK YOU PAGE
+================================ -->
+
+<section id="thanks-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Shukriya Dost 🌹
+        </h1>
+
+        <h3>
+            "Achhe Log Khoobsurat Yaadein Ban Jate Hain"
+        </h3>
+
+        <p class="typing-text">
+            Shukriya meri achhi dost banne ke liye.
+
+            Zindagi mein kuch log apni achhi soch aur
+            achhe rawaiye ki wajah se hamesha yaad rehte hain.
+
+            Umeed hai ye dosti hamesha izzat aur khuloos
+            ke sath qaim rahegi.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        DREAMS PAGE
+================================ -->
+
+<section id="dream-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Sapne Aur Kamyabi ✨
+        </h1>
+
+        <h3>
+            "Mehnat Aur Dua Se Manzil Milti Hai"
+        </h3>
+
+        <p class="typing-text">
+            Apne sapnon ko hamesha zinda rakhna.
+
+            Mehnat karna, Allah par bharosa rakhna,
+            aur kabhi himmat mat harna.
+
+            Allah tumhare liye kamyabi ke behtareen raste
+            khol de.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+<!-- ===============================
+        PARENTS DUA PAGE
+================================ -->
+
+<section id="parents-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Walidain Ki Dua 🌷
+        </h1>
+
+        <h3>
+            "Walidain Allah Ki Bohat Bari Ne'mat Hain"
+        </h3>
+
+        <p class="typing-text">
+            Walidain ki mohabbat duniya ki sab se khoobsurat
+            mohabbat hoti hai.
+
+            Dua hai ke Allah Ta'ala tumhare walidain ko sehat,
+            lambi zindagi aur hamesha khushiyan ata farmaye.
+
+            Aur tumhein unki khushi ka sabab banaye.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        RESPECT PAGE
+================================ -->
+
+<section id="respect-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Respect 💙
+        </h1>
+
+        <h3>
+            "Izzat Dosti Ko Mazboot Banati Hai"
+        </h3>
+
+        <p class="typing-text">
+            Kisi bhi rishte ki sab se khoobsurat cheez
+            izzat aur bharosa hota hai.
+
+            Jab dil mein ek dusre ke liye respect ho,
+            to dosti aur bhi mazboot ho jati hai.
+
+            Hamesha achha rawaiya aur achhi soch rakhna.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        COURAGE PAGE
+================================ -->
+
+<section id="courage-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Himmat 🌟
+        </h1>
+
+        <h3>
+            "Mushkil Waqt Mein Himmat Hi Taqat Hoti Hai"
+        </h3>
+
+        <p class="typing-text">
+            Zindagi mein kabhi kabhi mushkil raste bhi aate hain,
+            lekin himmat rakhne wale log hi aage barhte hain.
+
+            Allah par yaqeen rakho aur apni koshish jari rakho.
+
+            Har mushkil ke baad asani zaroor aati hai.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        IDENTITY PAGE
+================================ -->
+
+<section id="identity-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Apni Pehchan 🌼
+        </h1>
+
+        <h3>
+            "Achha Ikhlaq Sab Se Bari Khubsurti Hai"
+        </h3>
+
+        <p class="typing-text">
+            Insan ki asli khubsurti uske chehre se nahi,
+            balke uske ikhlaq aur achhe rawaiye se hoti hai.
+
+            Hamesha apni achhi soch aur achhe dil ko
+            apni pehchan banaye rakhna.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+<!-- ===============================
+        MEMORIES PAGE
+================================ -->
+
+<section id="memories-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Khubsurat Yaadein 🌺
+        </h1>
+
+        <h3>
+            "Kuch Lamhe Hamesha Dil Mein Rehte Hain"
+        </h3>
+
+        <p class="typing-text">
+            Zindagi ke safar mein kuch lamhe aise hote hain
+            jo waqt ke sath purane nahi hote.
+
+            Ye chhoti chhoti yaadein hi zindagi ko
+            khoobsurat banati hain.
+
+            Dua hai ke hamesha achhi yaadein aur khushiyan
+            naseeb hoti rahen.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        FRIENDSHIP PROMISE PAGE
+================================ -->
+
+<section id="promise-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Dosti Ka Wada 💖
+        </h1>
+
+        <h3>
+            "Achhi Dosti Hamesha Dil Mein Rehti Hai"
+        </h3>
+
+        <p class="typing-text">
+            Asal dosti mein sab se zaroori cheez
+            sachchai, izzat aur khuloos hota hai.
+
+            Dua hai ke ye dosti hamesha achhe ehsaas,
+            achhi soch aur achhi duaon ke sath qaim rahe.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        HOPE PAGE
+================================ -->
+
+<section id="hope-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Umeed 🌈
+        </h1>
+
+        <h3>
+            "Har Nayi Subah Ek Nai Umeed Hoti Hai"
+        </h3>
+
+        <p class="typing-text">
+            Zindagi mein hamesha umeed ka daman pakar kar rakhna.
+
+            Allah Ta'ala har mushkil ke baad asani deta hai.
+
+            Apne sapnon ke liye mehnat karna aur
+            hamesha positive rehna.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        FRIEND MESSAGE PAGE
+================================ -->
+
+<section id="friend-message-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Ek Khaas Paigham 🤍
+        </h1>
+
+        <h3>
+            "Dil Se Nikli Hui Baat"
+        </h3>
+
+        <p class="typing-text">
+            Ye website sirf ek project nahi,
+            balke ek chhoti si koshish hai jo dil se ki gayi hai.
+
+            Umeed hai jab bhi tum ise dekho gi,
+            tumhein ek achhi yaad aur ek pyari muskurahat milegi.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+<!-- ===============================
+        PHOTO GALLERY PAGE
+================================ -->
+
+<section id="gallery-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Yaadon Ki Tasveerain 📸
+        </h1>
+
+        <h3>
+            "Har Tasveer Ek Kahani Rakhti Hai"
+        </h3>
+
+        <div class="slideshow">
+
+    <img id="slideImage" src="photo1.jpg" alt="Memory Photo">
+
+</div>
+
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        MUSIC PAGE
+================================ -->
+
+<section id="music-page" class="page hidden">
+
+    <div class="glass-card">
+
+
+        <h1>
+            Ek Pyari Si Dhun 🎵
+        </h1>
+
+
+        <h3>
+            "Kuch Yaadein Suron Ke Sath Aur Bhi Khoobsurat Hoti Hain"
+        </h3>
+
+
+        <p class="typing-text">
+            Ye music is chhoti si journey ko aur yaadgar
+            banane ke liye add kiya gaya hai.
+        </p>
+
+
+        <div class="music-box">
+
+<button onclick="playMusic()">
+    ▶ Play Music
+</button>
+
+<button onclick="pauseMusic()">
+    ⏸ Pause Music
+</button>
+
+<audio id="mainMusic">
+
+    <source src="bg.mp3" type="audio/mpeg">
+
+</audio>
+
+</div>
+
+
+        <br><br>
+
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        FRIENDSHIP COUNTER PAGE
+================================ -->
+
+<section id="counter-page" class="page hidden">
+
+
+    <div class="glass-card">
+
+
+        <h1>
+            Hamari Dosti Ka Safar ⏳
+        </h1>
+
+
+        <h3>
+            "25 October 2025 Se Ab Tak"
+        </h3>
+
+
+<div id="counter">
+
+    <span id="days">0</span> Days
+
+    <span id="hours">0</span> Hours
+
+    <span id="minutes">0</span> Minutes
+
+    <span id="seconds">0</span> Seconds
+
+</div>
+
+
+        <p class="typing-text">
+            Har guzarta din ek nayi yaad aur ek naya
+            khoobsurat lamha lekar aata hai.
+        </p>
+
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+
+    </div>
+
+
+</section>
+<!-- ===============================
+        FINAL MESSAGE PAGE
+================================ -->
+
+<section id="final-message-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Aakhri Paigham 🌸
+        </h1>
+
+        <h3>
+            "Har Khoobsurat Safar Ki Ek Khoobsurat Yaad Hoti Hai"
+        </h3>
+
+        <p class="typing-text">
+            Agar tum yahan tak pohanch gayi ho,
+            to dil se shukriya.
+
+            Ye website sirf ek coding project nahi,
+            balke waqt, mehnat aur achhi niyyat ki ek chhoti si nishani hai.
+
+            Umeed hai jab bhi tum ise dekho gi,
+            tumhare chehre par ek pyari si muskurahat zaroor hogi.
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ===============================
+        FINAL DUA PAGE
+================================ -->
+
+<section id="final-dua-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Dil Se Dua 🤲
+        </h1>
+
+        <h3>
+            "Allah Hamesha Khush Rakhe"
+        </h3>
+
+        <p class="typing-text">
+            Allah Ta'ala tumhein sehat,
+            sukoon, kamyabi aur hamesha khushiyan ata farmaye.
+
+            Tumhari har jaiz dua qubool ho,
+            tumhari zindagi barkat se bhar jaye.
+
+            Allah tumhein hamesha apni hifazat mein rakhe.
+
+            Ameen 🤲
+        </p>
+
+        <button class="nextBtn">
+            Next
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ===============================
+        THANK YOU PAGE
+================================ -->
+
+<section id="thankyou-page" class="page hidden">
+
+    <div class="glass-card">
+
+        <h1>
+            Thank You Maryam Raees 🌸
+        </h1>
+
+        <h3>
+            "Ek Chhoti Si Koshish, Dil Se"
+        </h3>
+
+        <p class="typing-text">
+            Shukriya is chhoti si journey ka hissa banne ke liye.
+
+            Hamesha khush raho,
+            muskurati raho aur apna khayal rakhna.
+
+        </p>
+
+
+        <audio controls>
+
+            <source src="ending.mp3" type="audio/mpeg">
+
+        </audio>
+
+
+        <h2>
+            — Tumhara Dost, Tayymor Khan 💗
+        </h2>
+
+
+    </div>
+
+</section>
+<!-- ===============================
+        SPECIAL MESSAGE PAGE
+================================ -->
+
+<section id="special-page" class="page hidden">
+
+<div class="glass-card">
+
+<h1>
+    Ek Khaas Baat 💗
+</h1>
+
+<h3>
+    "Kuch Log Zindagi Mein Khaas Ban Jate Hain"
+</h3>
+
+<p class="typing-text">
+    Har insan ki zindagi mein kuch log aise hote hain
+    jo apni achhi soch aur achhe rawaiye ki wajah se
+    yaad reh jate hain.
+
+    Dua hai ke hamesha khushiyan aur achhe lamhe
+    naseeb hote rahen.
+</p>
+
+<button class="nextBtn">
+Next
+</button>
+
+</div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        KINDNESS PAGE
+================================ -->
+
+<section id="kindness-page" class="page hidden">
+
+<div class="glass-card">
+
+<h1>
+    Achhai 🌷
+</h1>
+
+<h3>
+    "Achha Dil Sab Se Bari Khubsurti Hai"
+</h3>
+
+<p class="typing-text">
+    Insan ki asli pehchan uski achhai,
+    uska ikhlaq aur uska rawaiya hota hai.
+
+    Hamesha dusron ke liye asani aur khushi ka sabab banna.
+</p>
+
+<button class="nextBtn">
+Next
+</button>
+
+</div>
+
+</section>
+
+
+
+
+<!-- ===============================
+        HAPPINESS PAGE
+================================ -->
+
+<section id="happiness-page" class="page hidden">
+
+<div class="glass-card">
+
+<h1>
+    Khushiyan 😊
+</h1>
+
+<h3>
+    "Chhoti Chhoti Khushiyan Badi Yaadein Ban Jati Hain"
+</h3>
+
+<p class="typing-text">
+    Zindagi ke har din mein koi na koi
+    khoobsurat baat zaroor hoti hai.
+
+    Un lamhon ko appreciate karna seekhna
+    hi asli khushi hai.
+</p>
+
+<button class="nextBtn">
+Next
+</button>
+
+</div>
+
+</section>
+
+
+
+<!-- ===============================
+        MEMORY TIMELINE PAGE
+================================ -->
+
+<section id="timeline-page" class="page hidden">
+
+<div class="glass-card">
+
+<h1>
+    Hamari Yaadon Ka Safar 🌸
+</h1>
+
+<h3>
+    "Ek Khoobsurat Shuruaat"
+</h3>
+
+
+<div class="timeline">
+
+<p>
+📅 25 October 2025  
+<br>
+Dosti ka safar shuru hua.
+</p>
+
+
+<p>
+💗 Pehla Ehsaas  
+<br>
+Ek achhi dosti ki bunyaad bani.
+</p>
+
+
+<p>
+🌸 Khoobsurat Lamhe  
+<br>
+Chhoti chhoti baatein yaadgar ban gayin.
+</p>
+
+
+<p>
+🤲 Dua  
+<br>
+Allah se hamesha khushi aur behtari ki dua.
+</p>
+
+
+</div>
+
+
+<button class="nextBtn">
+Next
+</button>
+
+
+</div>
+
+</section>
+<!-- ===============================
+        SECRET LETTER PAGE
+================================ -->
+
+<section id="letter-page" class="page hidden">
+
+<div class="glass-card">
+
+<h1>
+    Ek Khaas Khat 💌
+</h1>
+
+<h3>
+    "Dil Se Likha Hua Paigham"
+</h3>
+
+
+<div class="envelope" onclick="openLetter()">
+
+    💌
+    
+    <p>
+        Click karo aur letter kholo
+    </p>
+
+</div>
+
+
+<div id="letter-text" class="hidden">
+
+<p class="typing-text">
+
+Maryam, ye chhoti si website ek yaad ki tarah hai.
+
+Umeed hai jab bhi tum ise dekho gi,
+tumhare chehre par ek muskurahat zaroor aayegi.
+
+Allah tumhein hamesha khush rakhe.
+
+</p>
+
+</div>
+
+
+<button class="nextBtn">
+Next
+</button>
+
+
+</div>
+
+</section>
+<!-- ===============================
+        DIGITAL DIARY PAGE
+================================ -->
+
+<section id="diary-page" class="page hidden">
+
+<div class="glass-card">
+
+<h1>
+    Meri Digital Diary 📖
+</h1>
+
+<h3>
+    "Kuch Yaadein Hamesha Dil Mein Rehti Hain"
+</h3>
+
+
+<div class="diary-entry">
+
+<h2>
+    📅 25 October 2025
+</h2>
+
+<p class="typing-text">
+
+Aaj ek khoobsurat safar ki shuruaat hui.
+
+Kuch log zindagi mein aate hain aur
+apni achhi soch se ek achhi yaad ban jate hain.
+
+</p>
+
+</div>
+
+
+
+<div class="diary-entry">
+
+<h2>
+    🌸 Ek Pyari Yaad
+</h2>
+
+<p class="typing-text">
+
+Har achha lamha apni ek kahani rakhta hai.
+
+In yaadon ko hamesha khubsurat ehsaas ke sath yaad rakhna.
+
+</p>
+
+</div>
+
+
+<button class="nextBtn">
+Next
+</button>
+
+
+</div>
+
+</section>
+<!-- ===============================
+        LAST PAGE
+================================ -->
+
+<section id="last-page" class="page hidden">
+
+<div class="glass-card">
+
+<h1>
+    The End 🌸
+</h1>
+
+<h3>
+    "Ye Safar Yahin Khatam Nahi Hota"
+</h3>
+
+<p>
+    Ye ek chhoti si digital yaad thi.
+
+    Allah kare zindagi hamesha khushiyon,
+    kamyabi aur sukoon se bhari rahe.
+
+    Ameen 🤲
+</p>
+
+
+<h2>
+    Maryam Raees 💗
+</h2>
+
+<h3>
+    — Tayymor Khan
+</h3>
+<button onclick="celebrate()">
+    Surprise 🎉
+</button>
+</div>
+
+</section>
+</body>
+
+</html>
